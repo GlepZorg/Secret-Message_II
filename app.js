@@ -4,4 +4,14 @@ secretMessage.pop();
 
 console.log(secretMessage.length);
 
-secretMessage.push('easily', 'right');
+secretMessage.push('to', 'program');
+
+secretMessage[secretMessage.indexOf('easily')] = 'right';
+
+secretMessage.shift();
+
+secretMessage.unshift('Programming');
+
+secretMessage.splice(6, 5, 'know');
+
+console.log(secretMessage.join());
